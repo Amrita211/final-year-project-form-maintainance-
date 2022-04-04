@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cover page</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4f8411d3f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
-        <!-- *****************************************  navigatio bar  ***************************** -->
-        <nav>
-            <!-- for the hambueger menu-->
-            <input id="nav-toggle" type="checkbox">
-            <!-- end-->
-            <div class="logo">QUAD<strong>rilateral</strong></div>
-            <ul class="links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#About_us">About Us</a></li>
-                <li><a href="#contact_us">Contact Us</a></li>
-                <li><a href="#feedback">Feedback</a></li>
-                <li><a href="#">Login</a></li>
 
-            </ul>
-            <!-- again this is for the hamburfer menu-->
-            <label for="nav-toggle" class="icon-burger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </label>
-        </nav>
-        
-<!-- ******************************************* HOME SECTION ********************************************* -->
-        <div id="home">
-            
-        </div>
-<!--******************************************* ABOUT US SECTION *****************************************-->
-        <div id="About_us">
-            <div class="abt_project_div">
-                <div class="abt_project">
-                    <h1>What is QUADrilateral ?</h1>
-                    <p>QUADrilateral is an innovative idea to solve the real world problem of mainly the student domain. As even for a school student it's quite tough to remember all the forms and its details. Therefore, QUADrilateral solves the problem of every person who wants to keep record of the various forms they filled, by its super fascinating features like entering the exam detail ones and get the reminder notifications as per the need, can see the recent upcoming exam according to the filled details before, keep the record of the forms that are being filled, and many more.
-                        Now through QUAdrilateral none of the important exams can be missed. 
-                        </p>
-                </div>
-            </div>
-           
-           <div class="our_pics">
-               
-                <div class="amrita">
-                    amrita
-                </div>
-        
-               <div class="anu">
-                   anu
-               </div>
-               <div class="anushka">
-                   anushka
-               </div>
-               <div class="shivangi">
-                   shivangi
-               </div>
-           </div>
-        </div>
-<!-- ********************************CONTACT US SECTION ***************************************-->
-        <div id="contact_us">
-            <div class="contact-us-content">
-                <h2>Contact Us</h2>
+    <!-- *****************************************  navigatio bar  ***************************** -->
+    <nav>
+        <!-- for the hambueger menu-->
+        <input id="nav-toggle" type="checkbox">
+        <!-- end-->
+        <div class="logo">QUAD<strong>rilateral</strong></div>
+        <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact_us">Contact Us</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#">Login</a></li>
 
-            </div>
-        </div>
-<!-- ********************************FEEDBACK SECTION **************************************-->
-        <div id="feedback">
-            <div class="feedback_form">
-                
-            </div>
+        </ul>
+        <!-- again this is for the hamburfer menu-->
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
 
-        </div>
+    <!-- ******************************************* HOME SECTION ********************************************* -->
+    <div id="home">
+
     </div>
-    
+    <!--******************************************* ABOUT US SECTION *****************************************-->
+    <section id="about-us">
+        <h1>What is QUADrilateral ?</h1>
+        <p>QUADrilateral is an innovative idea to solve the real world problem of mainly the student domain. As even for
+            a school student it's quite tough to remember all the forms and its details. Therefore, QUADrilateral solves
+            the problem of every person who wants to keep record of the various forms they filled, by its super
+            fascinating features like entering the exam detail ones and get the reminder notifications as per the need,
+            can see the recent upcoming exam according to the filled details before, keep the record of the forms that
+            are being filled, and many more.
+            Now through QUAdrilateral none of the important exams can be missed.
+        </p>
+        <div class="our-pics">
+            <h1>Founders</h1>
+            <img src="Anushka.jpg" alt="" class="pic">
+            <img src="Anushka.jpg" alt="" class="pic">
+            <img src="Anushka.jpg" alt="" class="pic">
+            <img src="Anushka.jpg" alt="" class="pic">
+        </div>
+    </section>
+    <!-- ********************************CONTACT US SECTION ***************************************-->
+    <section id="contact_us">
+        <div class="content-contact">
+            <div class="left">
+                <img src="envelop.webp" alt="">
+                <p><strong>If you have questions or just want to get in touch, use the form below. We look forward to hearing
+                    from you!</strong></p>
+            </div>
+            <div class="right">
+                <h1>Contact Us</h1>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email">
+                <input class="message" type="text" contenteditable="true" placeholder="Message" >
+                <button>Submit</button>
+                <p><i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ********************************FEEDBACK SECTION **************************************-->
+    <section id="feedback">
+        <h1>Feedback</h1>
+        <div>
+            <p>
+                <i class="fa-solid fa-face-angry red"></i>
+                <i class="fa-solid fa-face-meh orange"></i>
+                <i class="fa-solid fa-face-smile yellow"></i>
+                <i class="fa-solid fa-face-grin-beam green"></i>
+            </p>
+            <input type="text" contenteditable="true" placeholder="Feedback...">
+            <button>Send Feedback</button>
+        </div>
+    </section>
+
+
 </body>
+
 </html>
